@@ -1,0 +1,1 @@
+.rtl_screen -top_module {TOP} -include_path {<D:/fpga/pango/test_12G>} -design_files {<D:/fpga/pango/test_12G/source/TOP.v|work><D:/fpga/pango/test_12G/source/key_debounve.v|work><D:/fpga/pango/test_12G/source/matrix_ctrl.v|work><D:/fpga/pango/test_12G/source/matrix_scan.v|work><D:/fpga/pango/test_12G/ipcore/CLK_50M/CLK_50M.v|work>}

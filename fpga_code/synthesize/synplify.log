@@ -1,0 +1,15 @@
+
+Inputs and Outputs :
++------------------------------------------------------------------+
+| Type       | File Name                                          
++------------------------------------------------------------------+
+| Input      | D:/fpga/pango/test_12G/source/TOP.v                
+|            | D:/fpga/pango/test_12G/source/key_debounve.v       
+|            | D:/fpga/pango/test_12G/source/matrix_ctrl.v        
+|            | D:/fpga/pango/test_12G/source/matrix_scan.v        
+| Output     | D:/fpga/pango/test_12G/synthesize/snr.db           
+|            | D:/fpga/pango/test_12G/synthesize/synplify.log     
++------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {D:/fpga/pango/test_12G} -selected_syn_tool_opt 1 -top_module TOP

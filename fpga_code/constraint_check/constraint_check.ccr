@@ -1,0 +1,58 @@
+##### Written on 2026/05/21 17:05:31 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL12G-6LPG144
+
+Top Module : 
+	TOP
+
+Constraint File(s) : 
+	D:/fpga/pango/test_12G/project.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 6 critical warning(s), 1 warning(s), out of 474 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+define_attribute {p:mat1_cath[7]} {PAP_IO_LOC} {144}
+	C: ConstraintEditor-2002: [D:/fpga/pango/test_12G/project.fdc(line number: 84)] | Port mat1_cath[7] has been placed at location 144, whose type is share pin.
+
+define_attribute {p:mat3_anode[7]} {PAP_IO_LOC} {54}
+	C: ConstraintEditor-2002: [D:/fpga/pango/test_12G/project.fdc(line number: 252)] | Port mat3_anode[7] has been placed at location 54, whose type is share pin.
+
+define_attribute {p:mat3_anode[6]} {PAP_IO_LOC} {53}
+	C: ConstraintEditor-2002: [D:/fpga/pango/test_12G/project.fdc(line number: 259)] | Port mat3_anode[6] has been placed at location 53, whose type is share pin.
+
+define_attribute {p:mat3_anode[5]} {PAP_IO_LOC} {52}
+	C: ConstraintEditor-2002: [D:/fpga/pango/test_12G/project.fdc(line number: 266)] | Port mat3_anode[5] has been placed at location 52, whose type is share pin.
+
+define_attribute {p:mat3_anode[1]} {PAP_IO_LOC} {39}
+	C: ConstraintEditor-2002: [D:/fpga/pango/test_12G/project.fdc(line number: 294)] | Port mat3_anode[1] has been placed at location 39, whose type is share pin.
+
+define_attribute {p:mat3_anode[0]} {PAP_IO_LOC} {38}
+	C: ConstraintEditor-2002: [D:/fpga/pango/test_12G/project.fdc(line number: 301)] | Port mat3_anode[0] has been placed at location 38, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+
+Unconstrained ports:
+********************************************
+
+W: ConstraintEditor-4019: Port 'rst_n' unspecified I/O constraint.
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
